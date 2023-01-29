@@ -1,0 +1,10 @@
+{
+  "pages": [
+    "pages/scan/scan"
+  ],
+  "window": {
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

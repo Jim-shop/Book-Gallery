@@ -1,0 +1,20 @@
+<view id="container">
+	<view id="control">
+		<view id="nfc-logo">📶</view>
+		<view id="nfc-hint">靠近NFC标签</view>
+		<view id="or">或</view>
+		<button id="scan" capture-bind:touchend="onClickScan" type="primary">扫描条码</button>
+		<text id="debug">结果：{{result}}</text>
+	</view>
+
+	<scroll-view id="history" scroll-y="true" enable-flex="true" enable-passive="true">
+		<view class="history-item" wx:for="{{history}}" wx:key="*this">
+			{{item}}
+		</view>
+	</scroll-view>
+
+	<view id="inout">
+		<button id="export" capture-bind:touchend="onClickExport" type="default" size="mini">导出已读的{{num}}项</button>
+		<button id="import" capture-bind:touchend="onClickImport" type="default" size="mini">导入</button>
+	</view>
+</view>

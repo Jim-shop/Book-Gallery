@@ -1,0 +1,8 @@
+{
+  "usingComponents": {},
+  "backgroundColor": "#ffffff",
+  "navigationBarBackgroundColor": "#2196F3",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "扫描书籍",
+  "disableScroll": true
+}
